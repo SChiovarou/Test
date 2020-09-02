@@ -1,0 +1,235 @@
+Script started on Wed 02 Sep 2020 03:44:27 PM EDT
+]0;student1@csc415-server04:~/vm-csc415/exercise4[?1034h[student1@csc415-server04 exercise4]$ git inti[K[Koi[K[Kit
+Initialized empty Git repository in /home/student1/vm-csc415/exercise4/.git/
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git add .
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git commit -m "Initial commit"
+[master (root-commit) 0246f46] Initial commit
+ Committer: Student 1 Account <student1@hpc260.tcnj.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ex4git.txt
+ create mode 100644 first_file.txt
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git status
+# On branch master
+nothing to commit, working directory clean
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	second_file.txt
+#	third_file.txt
+nothing added to commit but untracked files present (use "git add" to track)
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git add .[Ksecond)[K_file.[K[K[K[K[K[K[K[K[K[K[K[Ksecond_file.txt
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   second_file.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	third_file.txt
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git commit -m "Add secibd [K[K[K[Kopnd [K[K[K[Knd file to proec[K[Kject"
+[master df6fcb1] Add second file to project
+ Committer: Student 1 Account <student1@hpc260.tcnj.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second_file.txt
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git log
+[?1h=commit df6fcb1e1db31a7410d2cebca6eee9257b12c6c9[m
+Author: Student 1 Account <student1@hpc260.tcnj.edu>[m
+Date:   Wed Sep 2 15:50:36 2020 -0400[m
+[m
+    Add second file to project[m
+[m
+commit 0246f467cfa9398581d8bcf692daef6c60c9cdb3[m
+Author: Student 1 Account <student1@hpc260.tcnj.edu>[m
+Date:   Wed Sep 2 15:47:12 2020 -0400[m
+[m
+    Initial commit[m
+[K[?1l>]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	third_file.txt
+nothing added to commit but untracked files present (use "git add" to track)
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git add third_file.txt
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git oc[K[Kcommit -m "Add third file to project"
+[master 19a16bd] Add third file to project
+ Committer: Student 1 Account <student1@hpc260.tcnj.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 third_file.txt
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git log
+[?1h=commit 19a16bd498347a76ad1a5f68b93903ce3720459e[m
+Author: Student 1 Account <student1@hpc260.tcnj.edu>[m
+Date:   Wed Sep 2 15:51:35 2020 -0400[m
+[m
+    Add third file to project[m
+[m
+commit df6fcb1e1db31a7410d2cebca6eee9257b12c6c9[m
+Author: Student 1 Account <student1@hpc260.tcnj.edu>[m
+Date:   Wed Sep 2 15:50:36 2020 -0400[m
+[m
+    Add second file to project[m
+[m
+commit 0246f467cfa9398581d8bcf692daef6c60c9cdb3[m
+Author: Student 1 Account <student1@hpc260.tcnj.edu>[m
+Date:   Wed Sep 2 15:47:12 2020 -0400[m
+[m
+    Initial commit[m
+[K[?1l>]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ get status
+bash: get: command not found...
+Similar commands are::
+'git'
+'GET'
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ex4git.txt
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ get s[K[K[K[Kit status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ex4git.txt
+#	modified:   first_file.txt
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git add first_file.txt
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   first_file.txt
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ex4git.txt
+#
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   first_file.txt
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ex4git.txt
+#	modified:   second_file.txt
+#	modified:   third_file.txt
+#
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git [K add secondf[K_file.txt third_file.txt
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   first_file.txt
+#	modified:   second_file.txt
+#	modified:   third_file.txt
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ex4git.txt
+#
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git commit -m "made changes to all thiree[K[K[K[Kree files"
+[master 5b3ae7c] made changes to all three files
+ Committer: Student 1 Account <student1@hpc260.tcnj.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 3 insertions(+)
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ git sat[Kt[K[Ktatus
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ex4git.txt
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ gi [Kt log
+[?1h=commit 5b3ae7c58dd23c2bd70c7cd3ee1259e3dfb08bcf[m
+Author: Student 1 Account <student1@hpc260.tcnj.edu>[m
+Date:   Wed Sep 2 15:58:07 2020 -0400[m
+[m
+    made changes to all three files[m
+[m
+commit 19a16bd498347a76ad1a5f68b93903ce3720459e[m
+Author: Student 1 Account <student1@hpc260.tcnj.edu>[m
+Date:   Wed Sep 2 15:51:35 2020 -0400[m
+[m
+    Add third file to project[m
+[m
+commit df6fcb1e1db31a7410d2cebca6eee9257b12c6c9[m
+Author: Student 1 Account <student1@hpc260.tcnj.edu>[m
+Date:   Wed Sep 2 15:50:36 2020 -0400[m
+[m
+    Add second file to project[m
+[m
+commit 0246f467cfa9398581d8bcf692daef6c60c9cdb3[m
+Author: Student 1 Account <student1@hpc260.tcnj.edu>[m
+Date:   Wed Sep 2 15:47:12 2020 -0400[m
+[m
+    Initial commit[m
+[K[?1l>]0;student1@csc415-server04:~/vm-csc415/exercise4[student1@csc415-server04 exercise4]$ exit
+exit
+
+Script done on Wed 02 Sep 2020 03:59:17 PM EDT
